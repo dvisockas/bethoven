@@ -1,11 +1,12 @@
 require "bethoven/version"
+require "bethoven/version"
 
 module Bethoven
   class Composer
 
-    def cut(url, name, sec, sec_from='00:00:00', name)
+    def cut(url, name, sec, sec_from='00:00:00', new_name)
       #time should be 00:10:00
-      system "ffmpeg -i /path/music.mp3 -t #{sec_from} -ss #{sec} -acodec copy #{name}"
+      system "ffmpeg -i #{url} -t #{sec_from} -ss #{sec} -acodec copy #{new_name}"
     end
 
     def compose(name, *files)
