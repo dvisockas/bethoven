@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Bethoven::VERSION
   spec.authors       = ["dvisockas"]
   spec.email         = ["danieliusvisockas@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "Summary"
+  spec.description   = "Description"
   spec.homepage      = ""
   spec.license       = "MIT"
 

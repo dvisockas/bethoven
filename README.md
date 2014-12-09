@@ -1,10 +1,10 @@
 # Bethoven
 
-TODO: Write a gem description
+Bethoven is ruby gem for processing audio files. Currently it only works for linux OS.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+To start using bethoven, add this line to your application's Gemfile:
 
     gem 'bethoven'
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+audio = Bethoven::Composer.new
+audio.cut(url_to_file, name_of_new_file, seconds_to_cut, sec_from='00:00:00', name)
 
 ## Contributing
 
